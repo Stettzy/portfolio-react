@@ -1,9 +1,10 @@
 import React from "react";
 import home1 from '../img/home1.png';
+import styled from "styled-components";
 
 const AboutSection = () => {
     return (
-        <div className="about-section-wrapper">
+        <About>
             <div className="title">
                 <div className="hide">
                     <h2>We work to make</h2>
@@ -22,8 +23,18 @@ const AboutSection = () => {
             <div className="image">
                 <img src={home1} alt="home-1"/>
             </div>
-        </div>
+        </About>
     )
 }
+
+// Styled components
+const About = styled.div`
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 10rem;
+    color: #fff;
+`;
 
 export default AboutSection;
