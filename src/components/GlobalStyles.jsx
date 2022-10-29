@@ -16,6 +16,7 @@ const GlobalStyles = createGlobalStyle`
         cursor: pointer;
         border: 3px solid #23d997;
         background-color: transparent;
+        padding: 15px 25px;
         color: #fff;
         transition: all .5s ease;
         &:hover {
@@ -23,6 +24,38 @@ const GlobalStyles = createGlobalStyle`
             background: #fff;
         }
     }
+
+    h2 {
+        font-weight: 300;
+        font-size: 4rem;
+    }
+
+    h3 {
+        color: #fff;
+    }
+
+    h4 {
+        font-weight: 700;
+    }
+
+    span {
+        font-weight: 500;
+        color: #23d997;
+    }
+
+    a {
+        font-size: 1.1rem;
+    }
+
+    p {
+        padding: 3rem 0;
+        color: #ccc;
+        font-size: 1.4rem;
+    }
+
+
+
+
 `
 
 export default GlobalStyles;
