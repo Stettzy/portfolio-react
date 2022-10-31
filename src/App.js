@@ -1,12 +1,10 @@
 import React from "react";
-// Styles
-import GlobalStyles from "./components/GlobalStyles";
 // Navigation
-import Nav from "./components/Nav";
+import Nav from "./components/nav/Nav";
 // Pages
-import AboutUsPage from "./pages/AboutUs";
-import ContactUsPage from "./pages/ContactUs";
-import OurWorkPage from "./pages/OurWork";
+import AboutUsPage from "./pages/AboutUs/AboutUs";
+import ContactUsPage from "./pages/ContactUs/ContactUs";
+import OurWorkPage from "./pages/OurWork/OurWork";
 // Router
 import { Routes, Route, useLocation } from "react-router-dom";
 // Animation
@@ -17,7 +15,6 @@ function App() {
 
     return (
         <div className="App">
-            <GlobalStyles />
             <Nav />
             <AnimatePresence exitBeforeEnter>
                 <Routes location={location} key={location.pathname}>

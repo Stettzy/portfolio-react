@@ -1,0 +1,56 @@
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.hero-wrapper > div {
+    width: 50%;
+    overflow: hidden;
+}
+
+.hero-wrapper .hero-left-column .title {
+    overflow: hidden;
+}
+
+.hero-wrapper .hero-left-column .hide {
+    color: #36353b;
+    font-size: 28px;
+}
+
+.hero-wrapper .hero-left-column .description p {
+    color: rgb(54 53 60 / 74%);
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.hero-wrapper .hero-left-column .description button {
+    padding: 10px 55px;
+    cursor: pointer;
+    border: 1px solid #36353b;
+    transition: .3s;
+}
+
+.hero-wrapper .hero-left-column .description button:hover {
+    transition: .3s;
+    background-color: #f6be5f;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.hero-wrapper .hero-left-column .hide span{
+    color: #a8d05e;
+}
+
+.hero-wrapper .hero-right-column {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-wrapper .hero-right-column img {
+    max-width: 350px;
+}
